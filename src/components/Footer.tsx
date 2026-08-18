@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Phone, Mail, MapPin, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Twitter, Phone, Mail, MapPin, Linkedin, Heart } from "lucide-react";
 import logo from "@/assets/momentum logo.png";
 
 const indexLinks = [
@@ -112,7 +112,8 @@ export const Footer = () => {
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6">
-            <div className="flex items-center justify-between flex-wrap gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-4">
+              {/* Left: Logo */}
               <div className="flex items-center gap-3">
                 <span className="inline-flex items-center justify-center rounded-xl bg-white/90 border border-white/10 p-2 shadow-sm">
                   <img src={logo} alt="Momentum AI Logo" className="h-7 w-auto" />
@@ -121,7 +122,14 @@ export const Footer = () => {
                   Momentum <span className="text-white">AI</span>
                 </span>
               </div>
-              <p className="text-xs text-white/50">
+              
+              {/* Center: Made in India */}
+              <p className="text-sm text-white/60 flex items-center justify-center gap-2 font-medium">
+                Made in India with <Heart className="w-4 h-4 text-red-500 fill-red-500 animate-heartbeat" />
+              </p>
+
+              {/* Right: Copyright */}
+              <p className="text-xs text-white/40">
                 © {new Date().getFullYear()} Momentum AI. All rights reserved.
               </p>
             </div>

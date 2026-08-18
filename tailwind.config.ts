@@ -209,6 +209,13 @@ export default {
               "translate(-50%,-40%) scale(1)",
           },
         },
+        heartbeat: {
+          "0%, 100%": { transform: "scale(1)" },
+          "14%": { transform: "scale(1.3)" },
+          "28%": { transform: "scale(1)" },
+          "42%": { transform: "scale(1.3)" },
+          "70%": { transform: "scale(1)" },
+        },
       },
 
       animation: {
@@ -238,6 +245,9 @@ export default {
 
         spotlight:
           "spotlight 2s ease 0.75s 1 forwards",
+
+        heartbeat:
+          "heartbeat 1.5s ease-in-out infinite",
       },
     },
   },

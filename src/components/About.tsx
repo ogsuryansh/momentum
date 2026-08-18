@@ -21,8 +21,7 @@ export const About = () => {
               the power of intelligent automation.
             </p>
             <p className="text-foreground/70 mb-8">
-              Led by our founder <span className="text-foreground font-semibold">Revant Raj</span>, 
-              our team combines deep expertise in artificial intelligence, machine learning, 
+              Our team combines deep expertise in artificial intelligence, machine learning, 
               and business automation to deliver solutions that drive real results.
             </p>
 
