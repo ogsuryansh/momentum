@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 import logo from "@/assets/momentum logo.png";
 
 const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#services" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "/#services" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export const Header = () => {
@@ -18,7 +18,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3">
            
               <img src={logo} alt="Momentum AI Logo" className="h-12 w-auto" />
             
