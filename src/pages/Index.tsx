@@ -9,6 +9,7 @@ import { Mission } from "@/components/Mission";
 import { BuiltFor } from "@/components/BuiltFor";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
+import { DashboardShowcase } from "@/components/DashboardShowcase";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
         <Header />
         <main>
           <Hero />
+          <DashboardShowcase />
           <Stats />
           <VoiceBuiltForIndia />
           <ValueProposition />

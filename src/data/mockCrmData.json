@@ -1,0 +1,71 @@
+{
+  "overview": {
+    "totalCalls": {
+      "value": 128,
+      "trend": "+12%",
+      "isPositive": true
+    },
+    "averageResolutionTime": {
+      "value": "24",
+      "trend": "+8%",
+      "isPositive": true
+    },
+    "customers": {
+      "value": 582,
+      "trend": "+18%",
+      "isPositive": true
+    },
+    "successRate": {
+      "value": "98.6%",
+      "trend": "+2.4%",
+      "isPositive": true
+    }
+  },
+  "chartData": [
+    { "name": "Mon", "total": 25 },
+    { "name": "Tue", "total": 45 },
+    { "name": "Wed", "total": 30 },
+    { "name": "Thu", "total": 60 },
+    { "name": "Fri", "total": 40 },
+    { "name": "Sat", "total": 85 },
+    { "name": "Sun", "total": 55 }
+  ],
+  "recentActivity": [
+    {
+      "id": "1",
+      "title": "New query resolved",
+      "timestamp": "2 min ago",
+      "icon": "check-circle"
+    },
+    {
+      "id": "2",
+      "title": "Call escalated successfully",
+      "timestamp": "15 min ago",
+      "icon": "alert-triangle"
+    },
+    {
+      "id": "3",
+      "title": "Customer onboarding completed",
+      "timestamp": "1 hr ago",
+      "icon": "user-check"
+    },
+    {
+      "id": "4",
+      "title": "Voice agent updated",
+      "timestamp": "3 hrs ago",
+      "icon": "settings"
+    }
+  ],
+  "calls": [
+    {
+      "id": "CALL-1001",
+      "customerName": "Alice Johnson",
+      "phoneNumber": "+1 (555) 019-2834",
+      "durationSec": 120,
+      "type": "Query",
+      "status": "Resolved",
+      "notes": "Customer asked about pricing plans.",
+      "timestamp": "2023-10-24T09:15:00Z"
+    }
+  ]
+}
