@@ -27,8 +27,8 @@ export function OverviewChart({ data }: OverviewChartProps) {
         <MoreHorizontal className="h-5 w-5 text-muted-foreground" />
       </CardHeader>
       <CardContent className="px-2 sm:px-6">
-        <div className="h-[250px] w-full mt-4">
-          <ResponsiveContainer width="100%" height="100%">
+        <div className="h-[250px] w-full mt-4" style={{ minWidth: 0, minHeight: 0 }}>
+          <ResponsiveContainer width="99%" height="100%">
             <LineChart data={data} margin={{ top: 5, right: 10, left: -20, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
               <XAxis

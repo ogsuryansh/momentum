@@ -17,7 +17,7 @@ export function DashboardShowcase() {
             Momentum helps businesses automate workflows, improve customer experience, and grow faster.
           </p>
           <Button className="rounded-full bg-foreground text-background hover:bg-foreground/90 px-6 font-semibold" asChild>
-            <a href="https://calendly.com/momentumai18/30min" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/momentumai18/new-meeting-1" target="_blank" rel="noopener noreferrer">
               Get Started
               <ArrowRight className="ml-2 w-4 h-4" />
             </a>
@@ -25,13 +25,13 @@ export function DashboardShowcase() {
         </div>
 
         {/* Dashboard Mockup Container */}
-        <div className="max-w-6xl mx-auto rounded-2xl border border-border/50 shadow-2xl overflow-hidden bg-white h-[800px] flex transform perspective-1000 rotateX-0 scale-100 transition-all hover:shadow-3xl">
-          <div className="flex-1 w-full h-full text-left pointer-events-none select-none">
+        <div className="max-w-6xl mx-auto rounded-2xl border border-border/50 shadow-2xl overflow-hidden bg-white h-[600px] md:h-[800px] flex transform perspective-1000 rotateX-0 scale-100 transition-all hover:shadow-3xl">
+          <div className="flex-1 w-full h-full text-left">
             {/* We reuse the Dashboard Layout but ensure it fills this container, not the screen */}
             <DashboardLayout>
               <div className="space-y-6">
                 {/* Top Stat Cards */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
                   <StatCard
                     title="Total Calls"
                     value={overview.totalCalls.value}

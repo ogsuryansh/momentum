@@ -89,7 +89,7 @@ export const BuiltFor = () => {
           <p className="text-foreground/70">
             Sound like you?{" "}
             <a
-            href="https://calendly.com/momentumai18/30min"
+            href="https://calendly.com/momentumai18/new-meeting-1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary font-medium"
